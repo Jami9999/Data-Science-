@@ -1,0 +1,2 @@
+O = DF[(DF["Marks"] > Mean + 2 * STD) | (DF["Marks"] < Mean - 2 * STD)]
+print(O)
