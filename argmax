@@ -1,0 +1,3 @@
+Count , Range = N.histogram (DF)
+print(Range[N.argmax(Count)])  
+argmax = index return 
