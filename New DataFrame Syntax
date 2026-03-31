@@ -1,0 +1,4 @@
+Frequency_Table = {
+    "Index" : Frequency.index ,
+    "Count_Of_Frequency" : Frequency.values 
+}
