@@ -1,0 +1,22 @@
+import matplotlib.pyplot as plt
+
+plt.scatter(Y_Test, Y_Pred)
+
+plt.xlabel("Actual")
+plt.ylabel("Predicted")
+plt.title("Actual vs Predicted")
+
+plt.show()
+
+
+
+
+import matplotlib.pyplot as plt
+
+plt.scatter(Y_Test, Y_Pred)
+
+plt.xlabel("Actual")
+plt.ylabel("Predicted")
+plt.title("Actual vs Predicted")
+
+plt.show()
