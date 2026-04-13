@@ -1,0 +1,5 @@
+SELECT Name , Age FROM students WHERE Department = "CSE";
+SELECT * FROM employee WHERE City = "Dhaka" AND Salary > 40000;
+SELECT Customer , SUM(Amount) FROM orders GROUP BY Customer;
+SELECT students.Name , marks.Marks FROM students INNER JOIN marks WHERE students.ID = marks.Student_ID ;
+SELECT customer.Name , SUM(orders.Amount) FROM customer INNER JOIN orders ON customer.ID = orders.O_ID GROUP BY customer.name ;
