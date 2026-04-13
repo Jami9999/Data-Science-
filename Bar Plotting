@@ -1,0 +1,5 @@
+PLOT.bar (TOTAL_SORT.index , TOTAL_SORT.values)
+PLOT.title ("Top 5 Teams")
+PLOT.xlabel ("Teams")
+PLOT.ylabel ("Matches")
+PLOT.show () 
