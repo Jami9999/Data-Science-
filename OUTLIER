@@ -14,5 +14,11 @@ print(IQR)
 print(L)
 print(U)
 print("\n")
-DRO = D[(D >= L) and (D <= U)]
+DRO = D[((D >= L).all (axis = 1)) & ((D <= U).all (axis = 1))]
 print(DRO)
+
+SEA.boxplot(DRO)
+PLOT.show ()
+
+
+
