@@ -1,0 +1,18 @@
+SEA.boxplot(D)
+PLOT.show ()
+
+
+
+Q1 = D.quantile (0.25)
+Q3 = D.quantile (0.75)
+IQR = Q3 - Q1
+L = Q1 - (1.5 * IQR)
+U = Q3 - (1.5 * IQR)
+print(Q1)
+print(Q3)
+print(IQR)
+print(L)
+print(U)
+print("\n")
+DRO = D[(D >= L) and (D <= U)]
+print(DRO)
